@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML5 Document</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+        }
+        body h1 {
+          text-align: center;
+        }
+      
+        #home h1 {
+          text-align: left;
+        }
+        #excercise h1 {
+          text-align: center;
+          
+        }
+        #basic h1 {
+          text-align: left;
+        }
+        #content1 {
+          margin-left: 30px;
+        }
+        
+        #content2 {
+          margin-left: 30px;
+        }
+        #content3 {
+          margin-left: 30px;
+        }
+        footer {
+          text-align: center;
+        }
+        h1.H {
+          color: rgb(8, 53, 53);
+          font-size: 30px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <h1>EXAMPLE OF HTML5 TAGS AND ATTRIBUTES</h1>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home" title="Home">Home</a></li>
+          <li><a href="#about" title="About Us">About</a></li>
+       
+        </ul>
+      </nav>
+    </header>
+    
+    <section id="home">
+      <h1>Welcome to my website!</h1>
+      <p>This is an example of an <span style="color: crimson;">HTML</span>  document that includes many of the common <mark>HTML</mark> tags and their attributes.</p>
+    </section>
+    <section id="about">
+      <h2>About:</h2>
+      <img src="IMG.jpg" width="75px" height="75px">
+      <p>I am vibhuthi SaiPrasoon and, I am 23 yr old.</p>
+    </section> 
+    <section id="contact">
+      <h3>Contact Me: wtspbsns@gmail.com</h3>
+
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Send">
+        <br>
+        <hr>
+        
+      </form>
+    </section>
+    <section id="Content">
+      <h1>My Gaming Content</h1>
+      <br>
+      <iframe id="content1" width="460" height="215" src="https://www.youtube.com/embed/N7bfa92Gr90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe id="content2" width="460" height="215" src="https://www.youtube.com/embed/Vz24m47wP1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe id="content3" width="460" height="215" src="https://www.youtube.com/embed/wOhKWnOx7g8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <br>
+      <h4><pre>      *Subscribe to my Channel</pre></h4>
+
+    </section>
+    <hr>
+    <br>
+    <section id="excercise">
+      <article>
+        <h1>*The Importance of Excercise*</h1>
+        <p>Excersice is essential for maintaining good health and physical fitness. Regular physical activity can help prevent a variety of health problems, such as obesity, heart disease, and type 2 diabetes.</p>
+        <p>so,welcome to spincity club, start moving and make excercise a part of your daily routine!</p>
+        <h4>Timings</h4>
+        <p>Morning:<time>06:00</time> to <time>11:00</time></p>
+        <p>Evening:<time>04:00</time> to <time>09:00</time></p>
+
+      </article>
+    </section>
+    <BR>
+      <HR>
+        <br>
+    <section id="basic">
+      <h1><u>Basics</u></h1>
+      
+      <p>Formula of Water is H<sub>2</sub>O</p>
+      <p>4<sup>3</sup>=64</p>
+    </section>
+    <br>
+    <hr>
+    <h1 class="H"><u>*Trulli*</u></h1>
+    <br>
+    <figure>
+      <img src="pic_trulli.jpg" alt="Trulli" style="width:30%">
+      <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+    </figure>
+    <br>
+    <section id="Destination">
+      <h3>Choose your dream destination</h3>
+      <label for="Destination">Choose a destination:</label>
+      <select name="Place" id="destination">
+        <option value="paris">Paris</option>
+        <option value="maldives">Maldives</option>
+        <option value="dubai">Dubai</option>
+        <option value="singapore">Singapore</option>
+      </select>
+      <br><br>
+      <input type="submit" value="submit">
+    </section>
+    <hr>
+
+
+    <footer>
+      <p>Copyright ©2022 My Website</p>
+    </footer>
+  </body>
+
+</html>
